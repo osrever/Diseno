@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi primera página web | Prueba de GitHub</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #26313d; background: #f2f5f8; line-height: 1.65; }
+    header { background: #17334b; color: white; padding: 42px 20px; text-align: center; }
+    header h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3rem); }
+    header p { margin: 0; color: #e0eaf1; }
+    main { max-width: 880px; margin: 34px auto; padding: 0 20px; }
+    article { background: white; border-radius: 12px; padding: clamp(20px, 5vw, 42px); box-shadow: 0 3px 18px #16314b13; }
+    h2 { color: #17334b; margin-top: 0; }
+    h3 { color: #a53c2d; margin-top: 30px; }
+    figure { margin: 26px 0; }
+    figure img { display: block; width: 100%; height: auto; border-radius: 8px; }
+    figcaption { font-size: .85rem; color: #5b6773; margin-top: 8px; }
+    .entradilla { font-size: 1.18rem; font-weight: 600; }
+    .destacado { border-left: 5px solid #d77a2f; background: #fff7ed; padding: 16px 20px; font-style: italic; margin: 26px 0; }
+    a { color: #075d9b; }
+    footer { text-align: center; padding: 20px; color: #65717d; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mi primera página web</h1>
+    <p>Una práctica sencilla de HTML y GitHub Pages</p>
+  </header>
+
+  <main>
+    <article>
+      <h2>Un paseo por la ciudad</h2>
+      <p class="entradilla">Esta es una entradilla: un párrafo inicial que destaca sobre el resto del texto y presenta el tema.</p>
+
+      <figure>
+        <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Vista panorámica de una ciudad con edificios y rascacielos">
+        <figcaption>Ejemplo de fotografía panorámica. Imagen: Unsplash (carga desde Internet).</figcaption>
+      </figure>
+
+      <p>Este es un párrafo normal. Podemos escribir una noticia, una crónica o cualquier otro contenido para nuestra web. El navegador interpreta las etiquetas HTML y presenta el contenido con los estilos definidos.</p>
+
+      <h3>Diferentes formatos de texto</h3>
+      <p>Este párrafo contiene palabras en <strong>negrita</strong>, expresiones en <em>cursiva</em> y fragmentos <u>subrayados</u>. También podemos destacar texto con <mark>un fondo de color</mark>.</p>
+      <p>También es posible añadir un <a href="https://www.us.es/" target="_blank" rel="noopener noreferrer">enlace a la Universidad de Sevilla</a>.</p>
+
+      <blockquote class="destacado">«Una página web no necesita ser complicada: bastan unos pocos elementos para publicar contenido en Internet».</blockquote>
+
+      <h3>Una lista sencilla</h3>
+      <ul>
+        <li>Un título principal y varios subtítulos.</li>
+        <li>Una fotografía con su pie de foto.</li>
+        <li>Párrafos, enlaces y elementos destacados.</li>
+      </ul>
+
+      <p><small>Este texto final aparece en un tamaño más pequeño para mostrar otra posibilidad de formato.</small></p>
+    </article>
+  </main>
+  <footer>Práctica de publicación web · Archivo index.html</footer>
+</body>
+</html>
